@@ -1,0 +1,23 @@
+{
+  "name": "ts_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rene0115/ts_blog.git"
+  },
+  "author": "Rene0115",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rene0115/ts_blog/issues"
+  },
+  "homepage": "https://github.com/Rene0115/ts_blog#readme",
+  "devDependencies": {
+    "@types/node": "^20.5.8",
+    "typescript": "^5.2.2"
+  }
+}
