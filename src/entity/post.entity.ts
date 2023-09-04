@@ -1,21 +1,19 @@
-import { Entity, PrimaryGeneratedColumn, Column } from "typeorm"
+import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 
 @Entity()
 export class Post {
+  @PrimaryGeneratedColumn()
+  id: number;
 
-    @PrimaryGeneratedColumn()
-    id: number
+  @Column()
+  Title: string;
 
-    @Column()
-    Title: string
+  @Column()
+  Description: string;
 
-    @Column()
-    Description: string
+  @Column()
+  Body: string;
 
-    @Column()
-    Body: string
-
-    @Column()
-    User_id: number
-
+  @Column()
+  User_id: number;
 }
